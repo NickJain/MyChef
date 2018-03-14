@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nikhiljain.mobileapplicationproject.splashActivity"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:text="MY CHEF"
+        android:textSize="60sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="80dp"
+        android:textColorHighlight="@color/colorGrey"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        </TextView>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp">
+    </ProgressBar>
+
+</RelativeLayout>
